@@ -1,0 +1,39 @@
+.sociallinks{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: yellow; */
+    width: 30vw;
+    align-items: center;
+    height: 40px;
+}
+
+
+.sociallinks a {
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    /* color: gray; */
+    transition: 0.3s;
+
+}
+
+.sociallinks a:first-child{
+    color: white;
+}
+
+.sociallinks a:nth-child(2) {
+  color: #0077b5; /* LinkedIn blue */
+  background-color: transparent; /* Remove white */
+}
+
+.sociallinks a:nth-child(3) {
+  color: rgb(255, 162, 0);
+  background-color: transparent; /* Remove white */
+}
+
+.sociallinks a:hover{
+    transform: scale(1.1);
+}
+
