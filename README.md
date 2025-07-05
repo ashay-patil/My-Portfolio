@@ -1,12 +1,35 @@
-# React + Vite
+# 💼 Ashay's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal **Ashay's Portfolio** built using **React.js** and styled with modern CSS techniques. This website showcases my projects, skills, contact information, and resume — everything a recruiter or fellow developer needs to know about me!
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Responsive design — mobile & desktop optimized
+* Interactive sections: About Me, Projects, Skills, Resume, Contact
+* PDF Resume Download
+* Social links media integration (LinkedIn, GitHub, LeetCode)
+* Smooth scrolling and animations
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js with Vite
+* **Styling:** CSS3
+* **Icons:** React Icons
+* **PDF Download:** HTML5 + Native browser support
+* **Hosting:** Vercel 
+
+
+---
+
+## 🌐 Deployment
+
+Visit Live Link :- : **[Ashay's Portfolio](https://my-portfolio-tau-one-90.vercel.app/)**
+
+---
+
+> Designed with ❤️ by \Ashay Patil
