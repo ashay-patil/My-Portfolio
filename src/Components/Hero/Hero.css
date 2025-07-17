@@ -48,22 +48,30 @@
 }
 
 .hero-resume{
-    padding: 25px 75px;
+    /* background-color: yellow; */
+    padding: 25px 0;
+    height: fit-content;
+    width: fit-content;
     border-radius: 50px;
     border: 2px solid #FFF;
     cursor: pointer;
 }
 
 .hero-resume a{
+    padding: 25px 75px;
     text-decoration: none;
     color: white;
+    border: none;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
 }
 
 .hero-connect:hover{
     border : 2px solid white;
 }
 
-.hero-resume:hover{
+.hero-resume:hover, .hero-resume > a:hover{
     border-color: #B415FF;
 }
 
