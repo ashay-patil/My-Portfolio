@@ -5,7 +5,7 @@ import Services from "./Components/Services/Services";
 import MyWork from "./Components/MyWork/MyWork";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
-
+import './index.css'
 const App = ()=>{
     return (
         <div>

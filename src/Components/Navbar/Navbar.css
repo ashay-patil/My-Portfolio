@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     margin:20px 170px;
+    /* background-color: #B923E1; */
 }
 
 .nav-menu {
@@ -55,7 +56,8 @@
 @media(max-width:768px){
     .navbar{
         margin: 20px 50px;
-
+        display: block;
+        position: relative;
     }
     .nav-connect{
         display: none;
@@ -85,7 +87,9 @@
         transition: right 0.5s;
         right:-350px;
     }
-
+    .navbar-logo{
+        width: 20vw;
+    }
     .nav-menu li{
         font-size: 30px;
         padding-left: 100px;

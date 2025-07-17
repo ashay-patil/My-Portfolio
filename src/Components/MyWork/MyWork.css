@@ -6,6 +6,7 @@
     gap: 80px;
     /* margin: 80px 170px; */
     width: 100vw;
+    /* background-color: #ff00ff; */
 }
 
 .mywork-title{
@@ -31,7 +32,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
-
 }
 
 .mywork-container img {
@@ -64,6 +64,7 @@
     transition: 0.6s;
     /* background-color: yellow; */
     cursor: pointer;
+    margin: auto;
 }
 
 .mywork-showmore a{
@@ -86,12 +87,13 @@
 @media(max-width:768px){
     .mywork{
         gap:50px;
-        margin: 50px 70px;
         align-items: start;
+        width: 100%;
     }
 
     .mywork-title h1{
         padding: 0;
+        margin: 30px;
         font-size: 50px;
         font-weight: 600;
     }
@@ -104,8 +106,9 @@
     .mywork-container{
         display: flex;
         overflow: auto;
-        height: 300px;
-        width: 100vw;
+        height: 350px;
+        width: 80%;
+        margin: auto;
     }
 
     .mywork-container img{
@@ -116,6 +119,7 @@
     .mywork-showmore{
         /* background-color: yellow; */
         padding: 0px;
+        margin: auto;
     }
     .mywork-showmore a{
         /* background-color: #ff00ff; */
