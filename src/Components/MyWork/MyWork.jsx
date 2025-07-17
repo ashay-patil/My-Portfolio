@@ -20,8 +20,10 @@ const MyWork = ()=>{
             }
             </div>
             <div className="mywork-showmore">
-                <p><a href="https://www.github.com/ashay-patil">Show More</a></p>
+                <a href="https://www.github.com/ashay-patil">
+                <p>Show More</p>
                 <img src={arrow_icon} alt="" />
+                </a>
             </div>
         </div>
     )

@@ -4,9 +4,11 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    /* margin: 80px 170px; */
 
 }
+
+
 
 .services-title{
     position: relative;
@@ -27,9 +29,7 @@
 }
 
 .services-format{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* display: flex; */
     gap: 20px;
     padding: 60px;
     border-radius: 10px;
@@ -39,8 +39,7 @@
 }
 
 .services-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     gap: 40px;
     margin-bottom: 80px;
 
@@ -127,7 +126,8 @@
     }
 
     .services-container{
-        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr; */
+        flex-direction: column;
         gap: 30px;
     }
 }
