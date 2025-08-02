@@ -12,8 +12,22 @@ const Contact = () => {
         const formData = new FormData(event.target);
 
         formData.append("access_key", import.meta.env.VITE_ACCESS_KEY);
-
         const object = Object.fromEntries(formData);
+        const {name, email, message} =  object;
+        if(!name || !email || !message){
+            alert('Please enter valid Inputs');
+            return ;
+        }
+        const namearr = name.split(' ');
+        if(namearr.length > 5){
+            alert('Invalid Name');
+            return;
+        }
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            alert("Please enter a valid email address.");
+            return;
+        }
         const json = JSON.stringify(object);
 
         const res = await fetch("https://api.web3forms.com/submit", {
@@ -27,6 +41,7 @@ const Contact = () => {
 
         if (res.success) {
             alert(res.message);
+            event.target.reset();
         }
     };
 
