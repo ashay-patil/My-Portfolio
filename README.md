@@ -32,4 +32,4 @@ Visit Live Link :- : **[Ashay's Portfolio](https://my-portfolio-tau-one-90.verce
 
 ---
 
-> Designed with ❤️ by \Ashay Patil
+> Designed with ❤️ by Ashay Patil
