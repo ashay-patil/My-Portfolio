@@ -97,3 +97,31 @@
         gap: 20px;
     }
 }
+@media(max-width:480px){
+    .navbar {
+        margin: 10px 5px;
+        display: block;
+        position: relative;
+    }
+    .nav-menu {
+        width: 90vw;
+        font-size: 16px;
+        gap: 10px;
+        padding: 10px 0;
+    }
+    .nav-menu li {
+        font-size: 18px;
+        padding-left: 20px;
+        gap: 10px;
+    }
+    .nav-mob-open {
+        right: 10px;
+    }
+    .nav-mob-close {
+        left: 90vw;
+        width: 24px;
+    }
+    .navbar-logo {
+        width: 40vw;
+    }
+}

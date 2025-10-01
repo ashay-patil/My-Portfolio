@@ -132,3 +132,41 @@
     
 
 }
+
+@media(max-width:480px){
+    .mywork {
+        gap: 20px;
+        align-items: stretch;
+        width: 100vw;
+    }
+    .mywork-title h1 {
+        font-size: 22px;
+        margin: 10px;
+        padding: 0;
+    }
+    .mywork-title img {
+        width: 60px;
+        margin-right: -10px;
+    }
+    .mywork-container {
+        display: flex;
+        overflow-x: auto;
+        height: 180px;
+        width: 98vw;
+        margin: auto;
+        gap: 10px;
+    }
+    .mywork-container img {
+        width: 120px;
+        height: 120px;
+    }
+    .mywork-showmore {
+        font-size: 10px;
+        padding: 0px;
+        margin: auto;
+    }
+    .mywork-showmore a {
+        font-size: 10px;
+        padding: 8px 10px;
+    }
+}

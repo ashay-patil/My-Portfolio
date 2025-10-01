@@ -135,3 +135,43 @@
         margin: auto;
     }
 }
+
+@media(max-width:480px){
+    .services {
+        gap: 30px;
+        margin: 10px 5px;
+        align-items: stretch;
+    }
+    .services-title h1 {
+        font-size: 22px;
+        padding: 0;
+    }
+    .services-title img {
+        width: 60px;
+        margin-right: -10px;
+    }
+    .services-format {
+        gap: 10px;
+        padding: 12px;
+    }
+    .services-format h2 {
+        font-size: 16px;
+    }
+    .services-format h3 {
+        font-size: 14px;
+    }
+    .services-format p {
+        font-size: 10px;
+        line-height: 16px;
+        max-width: 100px;
+    }
+    .services-readmore img {
+        width: 14px;
+    }
+    .services-container {
+        flex-direction: column;
+        gap: 10px;
+        align-items: stretch;
+        margin: auto;
+    }
+}

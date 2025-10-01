@@ -127,3 +127,40 @@
         border-radius: 40px;
     }
 }
+
+@media(max-width:480px){
+    .hero img {
+        margin-top: 60px;
+        width: 120px;
+        height: 120px;
+    }
+    .hero h1 {
+        margin-top: 20px;
+        width: 98%;
+        font-size: 24px;
+    }
+    .hero p {
+        width: 98%;
+        font-size: 12px;
+        line-height: 14px;
+        margin: 5px 0px;
+    }
+    .hero-action {
+        gap: 8px;
+        font-size: 12px;
+        flex-direction: column;
+    }
+    .hero-connect {
+        padding: 8px 12px;
+        font-size: 10px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .hero-resume a {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+    .hero-resume {
+        border-radius: 20px;
+    }
+}
