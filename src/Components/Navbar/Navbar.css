@@ -105,14 +105,15 @@
         position: relative;
     }
     .nav-menu {
-        width: 90vw;
+        width: 70vw;
         font-size: 16px;
-        gap: 10px;
+        /* gap: 10px; */
         padding: 10px 0;
         padding-top: 50px;
+        /* right:-350px; */
     }
     .nav-menu li {
-        font-size: 18px;
+        font-size: 30px;
         padding-left: 20px;
         gap: 10px;
     }
@@ -120,7 +121,7 @@
         right: 10px;
     }
     .nav-mob-close {
-        left: 230px;
+        left: 50vw;
         width: 24px;
     }
     .navbar-logo {
