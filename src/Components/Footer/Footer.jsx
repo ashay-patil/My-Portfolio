@@ -5,6 +5,7 @@ import SocialLinks from './SocialLinks';
 const Footer = ()=>{
     return (
         <div className="footer">
+            <div className="space-adjust"></div>
             <div className="footer-top">
                 <div className="footer-top-left">
                     <img src={footer_logo} alt="" />

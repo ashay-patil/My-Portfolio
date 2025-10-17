@@ -5,14 +5,15 @@ import profile_img from '../../assets/about_profile.jpg';
 const About = () => {
     return (
         <div id='about' className="about">
+            <div className="space-adjust"></div>
             <div className="about-title">
                 <h1>About me</h1>
                 <img src={theme_pattern} alt="" />
             </div>
             <div className="about-sections">
-                <div className="about-left">
+                {/* <div className="about-left">
                     <img src={profile_img} alt="" />
-                </div>
+                </div> */}
                 <div className="about-right">
                     <div className="about-para">
                         <p>Experienced in developing full-stack applications using React.js, Node.js, MongoDB, and Express.js, handling authentication,

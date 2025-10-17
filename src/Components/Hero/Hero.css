@@ -4,7 +4,10 @@
     flex-direction: column;
     gap:35px;
 }
-
+.hero .space-adjust {
+    height: 200px;
+    width: 100vw;
+}
 .hero img {
     /* margin-top: 150px; */
     border-radius: 30%;

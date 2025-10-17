@@ -5,6 +5,7 @@ import myResume from '../../assets/Ashay_Patil_Resume.pdf'
 const Hero = () => {
     return (
         <div id='home' className='hero'>
+            <div className="space-adjust"></div>
             <img src={profile_img} alt="" />
             <h1><span>I am Ashay Patil,</span> full-stack Developer Studying in VIT Pune</h1>
             <p>I have hands on experience in creating full fledged MERN stack applications</p>

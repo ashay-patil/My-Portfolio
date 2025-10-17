@@ -4,9 +4,12 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    /* margin: 80px 170px; */
+    margin: 80px 170px;
 }
 
+.space-adjust {
+    height: 60px;
+}
 .about-left img{
     height: 70vh;
     width: 20vw;
