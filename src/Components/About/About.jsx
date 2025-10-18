@@ -52,12 +52,12 @@ const About = () => {
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <h1>260+</h1>
+                    <h1>340+</h1>
                     <p>Leetcode Questions Solved</p>
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <h1>15+</h1>
+                    <h1>20+</h1>
                     <p>Projects</p>
                 </div>
             </div>
